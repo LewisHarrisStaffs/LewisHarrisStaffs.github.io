@@ -2249,7 +2249,11 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/starrybg.jpg");
+				z-index:-1;
+				position:sticky;
+				top:0;
+				
 			}
 
 			#main > section.two {
